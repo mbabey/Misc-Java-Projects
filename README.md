@@ -29,3 +29,9 @@ Timesheet was built as a part of a first-term object-oriented programming class.
 Encoder is a program that encodes an input string (consisting of a set of 56 characters) into an array of longs. The program can also decode the longs back to the original message. 
 
 Encoder was built as a part of a first-term object-oriented programming class.
+
+## Matrix Math
+
+Matrix Math is a matrix addition and multiplication program.
+
+Matrix Math was built as a part of a first-term object-oriented programming class.
