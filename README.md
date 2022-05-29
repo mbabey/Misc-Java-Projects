@@ -24,4 +24,8 @@ Timesheet is a program that stores mock time sheets as a 14-digit hexadecimal nu
 
 Timesheet was built as a part of a first-term object-oriented programming class.
 
+## Encoder
 
+Encoder is a program that encodes an input string (consisting of a set of 56 characters) into an array of longs. The program can also decode the longs back to the original message. 
+
+Encoder was built as a part of a first-term object-oriented programming class.
