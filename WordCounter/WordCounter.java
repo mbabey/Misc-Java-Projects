@@ -3,7 +3,8 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-/** WordCounter. Counts the words in an input text file.
+/** WordCounter. Counts the number of unique words in an input text file. For 
+ * each unique word, counts the number of occurrences of that word.
  * 
  * @author Maxwell Babey
  * @version 2021, 1.0
