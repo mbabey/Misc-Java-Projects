@@ -110,4 +110,17 @@ public class TimeSheet {
                 + "\nLast day of week: " + endWeek.getDayOfWeek()
                 + "\nTimesheet:\n" + details;
     }
+
+    public static void main(String[] args) {
+      TimeSheet timeSheet1a = new TimeSheet("1a", LocalDate.now());
+      TimeSheetRow timeSheetRow1a1 = new TimeSheetRow(1, "School Project", 4.0f, 6.0f, 12.0f, 11.2f, 8.4f, 10.6f, 9.2f);
+      TimeSheetRow timeSheetRow1a2 = new TimeSheetRow(1, "School Project", 3.8f, 0.0f, 8.0f, 9.2f, 8.2f, 9.12f, 7.7f);
+      TimeSheetRow timeSheetRow1a3 = new TimeSheetRow(1, "School Project", 3.0f, 3.3f, 10.2f, 11.0f, 9.05f, 8.2f, 10.3f);
+      TimeSheetRow timeSheetRow1a4 = new TimeSheetRow(1, "School Project", 2.0f, 5.3f, 8.2f, 8.9f, 9.1f, 10.2f, 11.5f);
+      TimeSheetRow[] timeSheetRows = {timeSheetRow1a1, timeSheetRow1a2, timeSheetRow1a3, timeSheetRow1a4};
+      for (TimeSheetRow row : timeSheetRows) {
+        timeSheet1a.addRow(row);
+      }
+      System.out.println(timeSheet1a.toString());
+    }
 }
