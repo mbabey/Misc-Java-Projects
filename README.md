@@ -18,4 +18,10 @@ Primes is a Java impelementation of the Sieve of Eratosthenes, an algorithm to f
 
 Primes was built as a part of a first-term object-oriented programming class.
 
+## Timesheet
+
+Timesheet is a program that stores mock time sheets as a 14-digit hexadecimal number. It converts input numbers into their hexadecimal counterparts. It uses masking to extract the the hours worked on any given day in a week.
+
+Timesheet was built as a part of a first-term object-oriented programming class.
+
 
